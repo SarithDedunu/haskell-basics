@@ -15,3 +15,5 @@ main = do
     putStrLn ("In the " ++ show numOfGifts ++ "th gift, " ++ name ++ " got a toy car.")
     putStrLn (name ++ " got very excited and played with the car.")
     putStrLn ("But " ++ name ++ " forgot to do his homework.")
+
+--Variables in Haskell are immutable: once a value is assigned using let, it cannot be changed later.
